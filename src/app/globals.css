@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #f8fafc;
+    --foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --card-border: rgba(15, 23, 42, 0.08);
+    --card-hover-border: rgba(79, 70, 229, 0.35);
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --primary: #4f46e5;
+    --primary-foreground: #ffffff;
+    --primary-hover: #4338ca;
+    --secondary: #2563eb;
+    --accent: #06b6d4;
+    --border: #e2e8f0;
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(255, 255, 255, 0.6);
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+    --ring: rgba(79, 70, 229, 0.25);
+  }
+
+  .dark {
+    --background: #07090e;
+    --foreground: #f8fafc;
+    --card: rgba(15, 20, 32, 0.75);
+    --card-foreground: #f8fafc;
+    --card-border: rgba(255, 255, 255, 0.08);
+    --card-hover-border: rgba(129, 140, 248, 0.4);
+    --muted: rgba(255, 255, 255, 0.05);
+    --muted-foreground: #94a3b8;
+    --primary: #6366f1;
+    --primary-foreground: #ffffff;
+    --primary-hover: #4f46e5;
+    --secondary: #38bdf8;
+    --accent: #22d3ee;
+    --border: rgba(255, 255, 255, 0.1);
+    --glass-bg: rgba(11, 15, 25, 0.8);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+    --ring: rgba(99, 102, 241, 0.35);
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+.glass-nav {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+
+.glass-card {
+  background: var(--card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--card-border);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: var(--card-hover-border);
+  transform: translateY(-2px);
+  box-shadow: var(--glass-shadow);
+}
+
+/* Subtle background grid pattern */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(120, 119, 198, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(120, 119, 198, 0.05) 1px, transparent 1px);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+/* Tabular figures for numbers and financial tables */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

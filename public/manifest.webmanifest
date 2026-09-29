@@ -1,0 +1,39 @@
+{
+  "name": "Flectool — Everything you need. One simple place.",
+  "short_name": "Flectool",
+  "description": "27+ free, fast and private browser-based tools for students, developers, creators and everyday users. No signup needed.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#07090e",
+  "theme_color": "#4f46e5",
+  "categories": ["utilities", "productivity", "developer", "education"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "All Tools", "url": "/tools" },
+    { "name": "PDF Merge", "url": "/tools/pdf-merge" },
+    { "name": "Image Compressor", "url": "/tools/image-compressor" },
+    { "name": "QR Code Generator", "url": "/tools/qr-generator" }
+  ]
+}

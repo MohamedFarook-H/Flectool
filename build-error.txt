@@ -1,0 +1,66 @@
+▲ Next.js 16.3.7 (Turbopack)
+✓ Running next.config.ts took 35ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 279ms
+  Running TypeScript ...
+  Finished TypeScript in 4.3s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/40) ...
+  Generating static pages using 3 workers (10/40) 
+  Generating static pages using 3 workers (20/40) 
+  Generating static pages using 3 workers (30/40) 
+⨯ useSearchParams() should be wrapped in a suspense boundary at page "/tools". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at Object.X (/home/farook/Documents/Projects/toolora/.next/server/chunks/ssr/node_modules_next_0x3i8za._.js:2:3038)
+    at q (/home/farook/Documents/Projects/toolora/.next/server/chunks/ssr/node_modules_next_0x3i8za._.js:1:9742)
+    at /home/farook/Documents/Projects/toolora/.next/server/chunks/ssr/src_0i4q82v._.js:1:177
+    at al (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:85944)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:87760)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at au (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:86296)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:87805)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106280)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at aS (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:114685)
+    at ap (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:111684)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109897)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:100962)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109858)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:105898)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at au (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:86296)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:87805)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at aS (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:114685)
+    at ap (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:111684)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109897)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:87724)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at au (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:86296)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:87805)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:100962)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at au (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:86296)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:87805)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at ac (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:100962)
+    at ah (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:109623)
+    at af (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:106940)
+    at au (/home/farook/Documents/Projects/toolora/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.prod.js:2:86296)
+Error occurred prerendering page "/tools". Read more: https://nextjs.org/docs/messages/prerender-error
+Export encountered an error on /tools/page: /tools, exiting the build.
+⨯ Next.js build worker exited with code: 1 and signal: null
